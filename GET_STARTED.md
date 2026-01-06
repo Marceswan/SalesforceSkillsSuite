@@ -104,6 +104,7 @@ Open Claude Code and try these:
 ## Real-World Example: Complete Feature Build
 
 Let's build the TaxSlayer opportunity routing feature from start to finish.
+Let's build the multi-team opportunity routing feature from start to finish.
 
 ### Step 1: Requirements (2 minutes)
 
