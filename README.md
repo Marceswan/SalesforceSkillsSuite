@@ -39,6 +39,13 @@ Generate data migration documentation and scripts.
 - Bulk API scripts
 - Data transformations
 
+### 6. SalesforceUAT
+Generate UAT test scripts for end users.
+- Click-path instructions
+- Persona-based testing
+- Expected results defined
+- Multi-scenario support
+
 ## Quick Install (All Skills)
 
 ```bash
@@ -85,6 +92,12 @@ cp -r Salesforce* $PAI_DIR/Skills/
 → Generates detailed mapping with transformations and edge cases
 ```
 
+### UAT Testing
+```
+"Create UAT test script for lead disposition validation"
+→ Generates end-user test with numbered steps, expected results, and persona
+```
+
 ## Workflow
 
 **Typical Project Workflow:**
@@ -100,6 +113,7 @@ cp -r Salesforce* $PAI_DIR/Skills/
 ```
 # Step 1: Requirements
 "Create AC for TaxSlayer opportunity routing system"
+"Create AC for multi-team opportunity routing system"
 
 # Step 2: Code
 "Generate Flow for opportunity territory assignment"
@@ -207,7 +221,7 @@ After these 5 core skills, consider:
 
 ## Community Contribution
 
-These are the first Salesforce-specific PAI skills. Consider:
+These are the first Salesforce-specific PAI skills (that I know of, at least!). Consider:
 - Sharing on GitHub
 - Contributing to PAI repository
 - Helping other Salesforce architects
@@ -226,8 +240,8 @@ MIT License - Use freely, modify as needed
 
 ## Credits
 
-- **Author**: Marc (Salesforce Architect, 10+ years)
 - **Based on**: Real projects at TaxSlayer, Fibergrate, Digital Rupix
+- **Author**: Marc Swan
 - **PAI Framework**: Daniel Miessler
 
 ---

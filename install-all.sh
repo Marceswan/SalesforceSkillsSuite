@@ -48,6 +48,7 @@ SKILLS=(
     "SalesforceTesting"
     "SalesforceDevelopment"
     "SalesforceDataMigration"
+    "SalesforceUAT"
 )
 
 # Install each skill
@@ -108,6 +109,9 @@ echo "   \"Create an LWC to display opportunity products\""
 echo ""
 echo "5. Data Migration:"
 echo "   \"Create field mapping from legacy to Salesforce Account\""
+echo ""
+echo "6. UAT:"
+echo "   \"Create UAT test script for lead disposition validation\""
 echo ""
 echo "📖 Documentation:"
 echo "  - Suite README: $SCRIPT_DIR/README.md"
